@@ -46,8 +46,6 @@ flowchart TD
 | [**HorizonModServer**](https://github.com/dsmnh/HorizonModServer) | Java 8 + Forge 1.7.10<br>(GTNH RFG) + Mixin | **服务端模组**<br>运行于 GTNH 各子服，主动连接后端，对接 AE2、性能采样与命令切片。 | 🟡 待构建 |
 | [**HorizonModClient**](https://github.com/dsmnh/HorizonModClient) | Java 8 + Forge 1.7.10 | **客户端模组**<br>可选装，提供 ServerUtilities 侧栏快捷入口、绑定 UI 与方块材质。 | 🟡 待起步 |
 | [**HorizonMobile**](https://github.com/dsmnh/HorizonMobile) | React Native / Expo<br>TypeScript / SQLite | **Android 手机客户端**<br>继承打磨完成的 Telegram 式聊天、TPS 图表与 AE2 终端，接入新后端。 | 🟢 演进自 AEMobileApp 3.6.0 |
-| [**HorizonChat**](https://github.com/dsmnh/HorizonChat) | Java 8 + Forge 1.7.10 | **游戏内聊天格式化与跨服转发**<br>规则/样式渲染、BC Forward 跨服、宽版本协议 + 双向能力位。 | 🟢 已上正式服（v1.2.0） |
-| [**HorizonBridge**](https://github.com/dsmnh/HorizonBridge) | Java 8 + BungeeCord | **代理侧通用命令桥**<br>JSON exec 白名单命令、SU\|TabHF 阶梯下发、tab_source 端口反查。 | 🟢 现行 v1.1.2 |
 
 ---
 
@@ -59,6 +57,7 @@ flowchart TD
 | :--- | :--- | :--- |
 | [**AEMobile**](https://github.com/Huaxidesu/AEMobile) | 旧版单服嵌入式 Forge 模组 (v3.7.1) | 现行稳定版，持续维护至新系统完全替代 |
 | [**AEMobileApp**](https://github.com/Huaxidesu/AEMobileApp) | 旧版 Android 客户端 (v3.6.0) | 现行稳定版，作为新 App 的直接源码底座 |
+| [**AEMobileBridge**](https://github.com/Huaxidesu/AEMobileBridge) | BungeeCord 通用命令桥插件 (v1.1.2) | 现行维护中 |
 | [**AEMobileIcoOutput**](https://github.com/Huaxidesu/AEMobileIcoOutput) | 图标库导出与数据库构建工具 | 持续共用与维护 |
 | [**AEMobileDesktop**](https://github.com/Huaxidesu/AEMobileDesktop) | 桌面端实验原型 | 存档保留 |
 
