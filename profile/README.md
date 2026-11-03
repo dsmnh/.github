@@ -7,6 +7,17 @@
 
 ---
 
+## 🔀 双线结构
+
+| 线 | 位置 | 内容 | 策略 |
+|---|---|---|---|
+| **现行线** | 个人账号 [Huaxidesu](https://github.com/Huaxidesu) | AEMobile 生态：AEMobile、AEMobileApp、AEMobileChat、AEMobileBridge、AEMobileIcoOutput | 正式服在用，持续维护至新体系完全替代 |
+| **新开发线** | 本组织 `dsmnh` | 五个 Horizon 仓库 + HorizonChat / HorizonBridge（fork 自现行线同名仓库） | 新功能在这里开发，经 Sync fork 吸收现行线更新 |
+
+原仓库不迁移、不改名；组织内的 Chat / Bridge 为 fork 副本，血缘与同步走 GitHub fork 网络。
+
+---
+
 ## 🏛️ 体系架构全景
 
 ```mermaid
